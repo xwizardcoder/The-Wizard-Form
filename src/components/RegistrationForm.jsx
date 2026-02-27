@@ -56,6 +56,7 @@ const RegistrationForm = () => {
 
   const onSubmit = () => {
     setSubmitted(true);
+    console.log(data)
   };
 
   if (submitted) return <Success />;
